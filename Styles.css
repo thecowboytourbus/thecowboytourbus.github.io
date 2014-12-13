@@ -1,0 +1,94 @@
+/* -----------Typography--------------- */
+
+body {
+	background: #93f2cf;
+	margin:0;
+	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+	color: #081547;
+}
+
+h1 {
+	padding-top: 1.2em;
+	color: #555;
+	font-size: 40px;
+	font-family:'Sacramento', cursive;
+}
+
+h2 {
+	color:#555;
+	font-family: 'Amatic SC', cursive;
+}
+
+a{
+	color: #999;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#93f2cf;
+	}
+
+/* Layout------------------*/
+
+.items {
+	padding:0;
+	list-style:none;
+}
+
+#wrapper {
+	padding-top: 1.3em;
+	padding-bottom: 1.8em;
+	width: 100%;
+	background:url(images/upfeathers.png);
+}
+
+#navigation, #container {
+	margin:0 auto;
+	max-width: 960px;
+}
+
+/*Embedded Media---------------------*/
+
+img{
+	width:100%;
+	
+}
+
+.CBT {
+	max-width: 300px;
+	padding-right: 19.5em;
+	padding-left: 19.5em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	margin:0 auto;
+}
+
+/*Clearfix-------------------------------*/
+
+.clearfix:after {
+	content:".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+/* Navigation ----------------- */
+
+nav ul {
+	list-style: none;
+	padding: 0px;
+	margin:0 auto;
+	max-width: 428px;
+}
+
+nav ul li {
+	float: left;
+	margin:0 40px 0 0;
+	font-family: 'Amatic SC', cursive;
+	font-size: 35px;
+}
+
+	

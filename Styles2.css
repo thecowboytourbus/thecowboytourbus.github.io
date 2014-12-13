@@ -1,0 +1,95 @@
+/* -----------Typography--------------- */
+
+body {
+	background: #93f2cf;
+	margin:0;
+	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+	color: #081547;
+}
+
+
+h1 {
+	padding-top: 1.2em;
+	color: #555;
+	font-size: 40px;
+	font-family:'Sacramento', cursive;
+}
+
+h2 {
+	color:#555;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a{
+	color: grey;
+	text-decoration: none;
+}
+
+a:hover {
+	color:violet;
+	}
+
+/* Layout------------------*/
+
+.items {
+	padding:0;
+	list-style:none;
+}
+
+#wrapper {
+	padding-top: 1.3em;
+	padding-bottom: 1.8em;
+	width: 100%;
+	background:url(images/upfeathers.png);
+}
+
+#navigation, #container {
+	margin:0 auto;
+	max-width: 960px;
+}
+
+/*Embedded Media---------------------*/
+
+img{
+	width:100%;
+}
+
+.cat {
+	max-width: 200px;
+}
+
+/*Clearfix-------------------------------*/
+
+.clearfix:after {
+	content:".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+/* Navigation ----------------- */
+
+nav ul {
+	list-style: none;
+	padding: 0px;
+
+
+}
+
+nav ul li {
+	float: left;
+	margin:0 5px 0 0;
+}
+
+nav ul li a {
+	background: #93f2cf;
+	border-radius: 15px;
+	padding: 5px 15px;
+
+}
+nav ul li a:hover {
+	background: #999;
+}
